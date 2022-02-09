@@ -11,7 +11,7 @@ public class Game {
     private final Dice dice;
     private final Board board;
     private final Queue<Player> playerQueue;
-    private Map<Player, Integer> playerCurrentPositionMap;
+    private final Map<Player, Integer> playerCurrentPositionMap;
 
     private Game(Dice dice, Board board, List<Player> playerList) {
         this.dice = dice;
